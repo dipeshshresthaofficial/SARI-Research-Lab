@@ -1,37 +1,89 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/mnassar/SARI-Research-Lab/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<link rel="shortcut icon" type="image/jpg" href="img/logo-sari.jpg">
+<img align ="right" src="img/logo-sari.jpg" width="300">
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## SARI -- Security & ARtificial Intelligence Lab 
 
-### Markdown
+### Welcome to SARI: Security and ARtificial Intelligence Lab at University *of* New Haven. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+The lab aims at establishing and marketing a research group to help foster students' interest and participation in research projects.
 
-```markdown
-Syntax highlighted code block
+### Team Members
 
-# Header 1
-## Header 2
-### Header 3
+|  <!-- --> |  <!-- --> |
+|:---------:|:---------:|
+| <img src="img/1624731462921.jpeg" width="250"> | <img src="img/279.jpeg" width="250"> |
+| **Mohamed Nassar** is assistant professor at the University *of* New Haven. His research interests are cybersecurity and machine learning. | **Modhuparna Manna** is assistant professor at the University *of* New Haven. Her research interests are application security, memory forensics, digital forensics, malware analysis, and reverse engineering. |
+| <img src="img/IMG_20220311_161949__01.jpg" width="250"> | <img src="img/263.jpeg" width="250"> |
+| Shivanjali Khare is an assistant professor at the University of New Haven. Her research interests are modeling more resilient IoT and sensors technology toward cyber-attacks using Cryptography and Artificial Intelligence. | **Acil Farhat** is graduate research assistant pursuing a master degree in cybersecurity at the University *of* New Haven. She is interested in homomorphic cryptography and Microsoft SEAL. |
+| <img src="img/logo-sari.jpg" width="250"> | <img src="img/1649867518382.jpeg" width="250"> |
+| | **Rajdeep Bhattacharya** is a graduate student pursuing a computer science degree at the University *of* New Haven. He is interested in integrating AI in the domain of cybersecurity. |
 
-- Bulleted
-- List
+### Collaborations 
 
-1. Numbered
-2. List
+<img src="img/74953529_121960178978739_7728971919531296635_n.jpeg" width="250"> 
 
-**Bold** and _Italic_ and `Code` text
+[Yehya NASSER](https://www.linkedin.com/in/yehya-nasser-phd/), Associate Professor, IMT Atlantique, France. Hardware Security & Embedded AI.
 
-[Link](url) and ![Image](src)
-```
+### Current Research Projects 
+- Explainable Malware Classification
+- AI Fairness for Network Flow Monitoring
+- Deep Learning Reverse Engineering
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
-### Jekyll Themes
+### Recent Program Committee
+Team members serve as program committee members at renown international conferences and workshops. 
+- [IOTSEQ](https://www.sitis-conference.org/2022/contribute/workshops/iotseq/) Co-hosted with SITIS 2022.
+- [BCCA](http://intelligenttech.org/BCCA2022/)
+- [IEEE BC4TAI 2022](https://sites.google.com/view/ieee-bc4tai-2022/)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mnassar/SARI-Research-Lab/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+### Recent Publications 
+- Carlson, A., Khare, S., Dutta, I.K., Ghosh, B. and Totaro, M., 2022, January. Space Selection and Abstraction in Set Theoretic Estimation. In 2022 IEEE 12th Annual Computing and Communication Workshop and Conference (CCWC) (pp. 0012-0020). IEEE.
+- Ghosh, Bhaskar, Indira Kalyan Dutta, Shivanjali Khare, Albert Carlson, and Michael Totaro. "Isomorphic cipher reduction." In 2021 IEEE 12th Annual Information Technology, Electronics and Mobile Communication Conference (IEMCON), pp. 0947-0953. IEEE, 2021.
+- D. A. Bared and M. Nassar, [Segmentation Fault: A Cheap Defense Against Adversarial Machine Learning](https://ieeexplore.ieee.org/document/9678308), 2021 3rd IEEE Middle East and North Africa COMMunications Conference (MENACOMM), 2021, pp. 37-42, doi: 10.1109/MENACOMM50742.2021.9678308.
+- Sara Hajj Ibrahim and Mohamed Nassar. [Hack The Box: Fooling Deep Learning Abstraction-Based Monitors.](https://sites.google.com/view/ai4an2021/accepted-papers)
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+
+### LeetCode 
+Team members enjoy solving leetcode puzzles. 
+
+![Leetcode Stats](https://leetcode.card.workers.dev/?username=nassar7644)
+
+Check our custom solutions to leet code puzzles
+[Daily LeetCode](leetcode/leetcode.md)
+
+### TryHackMe
+Some team members enjoy hacking THM Rooms. 
+<script src="https://tryhackme.com/badge/321956"></script>
+
+### CTF 
+Some team members enjoy participating at Catch-The-Flag events. We compete under [UNHFlagPhishers](https://ctftime.org/team/177610/#.Ylca8Pbkvbs.link).
+We plan to have a flag gallery to display some flag pics. 
+
+|  <!-- --> |  <!-- --> |
+|:---------:|:---------:|
+| <img src="img/flag1.png" width="250"> | <img src="img/flag2.png" width="250"> |
+
+### Chess 
+Some team members enjoy playing a chess game [Challenge me](https://www.chess.com/member/moh-nass-581).
+
+<iframe id="9115295" allowtransparency="true" frameborder="0" style="width:100%;border:none;" src="//www.chess.com/emboard?id=9115295"></iframe><script>window.addEventListener("message",e=>{e['data']&&"9115295"===e['data']['id']&&document.getElementById(`${e['data']['id']}`)&&(document.getElementById(`${e['data']['id']}`).style.height=`${e['data']['frameHeight']+30}px`)});</script>
+
+### Sibling Labs
+
+[UNHcFreg](https://www.unhcfreg.com/)
+
+[SAIL](http://sail-lab.org/)
+
+[LASER](https://laser.newhaven.edu/)
+
+### Join or Contact
+
+If you are interested in joining our group or just have a chat, feel free to add us on Linkedin [nassar](https://www.linkedin.com/in/nassar1/) or send an email [Contact Us](mailto:mnassar@newhaven.edu).
+
+
+
+
+
+
