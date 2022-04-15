@@ -39,6 +39,11 @@ Team members serve as program committee members at renown international conferen
 
 
 ### Recent Publications 
+- M. Manna, A. Case, A. Ali-Gombe, G. G. Richard III, " Memory Analysis of .NET and .Net Core Applications," Proceedings of the 2022 Digital Forensics Research Conference (DFRWS), July 2022.  
+- M. Manna, A. Case, A. Ali-Gombe, G. G. Richard III,” Modern macOS Userland Runtime Analysis”, Forensic Science International: Digital Investigation (38)C, 301221 
+- M. Manna, A. Case, G. G. Richard III, "Performing Mac Memory Analysis Using Objective-C and Swift Data Structures," Proceedings of the 73rd Annual Meeting of the American Academy of Forensic Sciences (AAFS), February 2021, Virtual Meeting. 
+- A. Case, R. Maggio, M. Manna, G. G. Richard III, "Memory Analysis of macOS Page Queues," Proceedings of the 2020 Digital Forensics Research Conference (DFRWS), July 2020, Memphis, TN. 
+- G. G. Richard III, A. Case, M. Manna, E. Hahne, A. Ali-Gombe, Digital Investigation and the Trojan Defense, Revisited. In: Ijeh AC, Curran K, editors. Crime Science and Digital Forensics: A Holistic View, Science Publishers, an imprint of CRC press (Taylor and Francis Group), Boca Raton, FL, USA. 2021. 
 - Carlson, A., Khare, S., Dutta, I.K., Ghosh, B. and Totaro, M., 2022, January. Space Selection and Abstraction in Set Theoretic Estimation. In 2022 IEEE 12th Annual Computing and Communication Workshop and Conference (CCWC) (pp. 0012-0020). IEEE.
 - Ghosh, Bhaskar, Indira Kalyan Dutta, Shivanjali Khare, Albert Carlson, and Michael Totaro. "Isomorphic cipher reduction." In 2021 IEEE 12th Annual Information Technology, Electronics and Mobile Communication Conference (IEMCON), pp. 0947-0953. IEEE, 2021.
 - D. A. Bared and M. Nassar, [Segmentation Fault: A Cheap Defense Against Adversarial Machine Learning](https://ieeexplore.ieee.org/document/9678308), 2021 3rd IEEE Middle East and North Africa COMMunications Conference (MENACOMM), 2021, pp. 37-42, doi: 10.1109/MENACOMM50742.2021.9678308.
