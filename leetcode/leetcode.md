@@ -1,3 +1,32 @@
+2022 04 15
+
+**Medium**
+
+[Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/)
+
+```python
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+class Solution:
+    def scanBST (self, root, L): 
+        if root == None: 
+            return 
+        self.scanBST(root.left, L)
+        L.append(root)
+        self.scanBST(root.right, L) 
+        
+    def convertBST(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
+        L = [] 
+        self.scanBST(root, L)
+        for i in range(len(L)-2, -1, -1): 
+            L[i].val += L[i+1].val
+        return root
+```
+
 2022 04 14
 
 **Medium**
