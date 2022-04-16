@@ -73,7 +73,7 @@ We plan to have a flag gallery to display some flag pics.
 ### Chess 
 Some team members enjoy playing a chess game [Challenge me](https://www.chess.com/member/moh-nass-581).
 
-<iframe id="9115295" allowtransparency="true" frameborder="0" style="width:100%;border:none;" src="//www.chess.com/emboard?id=9115295"></iframe><script>window.addEventListener("message",e=>{e['data']&&"9115295"===e['data']['id']&&document.getElementById(`${e['data']['id']}`)&&(document.getElementById(`${e['data']['id']}`).style.height=`${e['data']['frameHeight']+30}px`)});</script>
+<iframe id="9115295" allowtransparency="true" frameborder="0" style="width:100%;border:none;" src="//www.chess.com/emboard?id=9115295"></iframe><script>window.addEventListener("message",e=>{e['data']&&"9115295"===e['data']['id']&&document.getElementById(`${e['data']['id']}`)&&(document.getElementById(`${e['data']['id']}`).style.height=`${e['data']['frameHeight']-30}px`)});</script>
 
 ### Sibling Labs
 
