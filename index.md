@@ -53,7 +53,7 @@ Team members serve as program committee members at renown international conferen
 ### LeetCode 
 Team members enjoy solving leetcode puzzles. 
 
-![Leetcode Stats](https://leetcode.card.workers.dev/?username=nassar7644)
+![Leetcode Stats](https://leetcode.card.workers.dev/?username=nassar7644&theme=dark)
 
 Check our custom solutions to leet code puzzles
 [Daily LeetCode](leetcode/leetcode.md)
