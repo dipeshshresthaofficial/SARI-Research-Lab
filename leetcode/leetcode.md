@@ -1,3 +1,64 @@
+2022 04 16 
+
+**Easy** 
+
+[Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/) 
+
+Solution 1: Memory Intensive 
+
+```python
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+class Solution:
+
+    def scan(self, root, L): 
+        if root.left != None: 
+            self.scan (root.left, L)
+        L.append(root)
+        if root.right != None: 
+            self.scan (root.right, L)
+        
+    def increasingBST(self, root: TreeNode) -> TreeNode:
+        L = []
+        self.scan (root, L)
+        for i in range(len(L)-1): 
+            L[i].right = L[i+1]
+            L[i].left = None
+        L[-1].left = None 
+        L[-1].right = None
+        return L[0]
+```
+
+Solution 2: Memory Efficient
+
+```python 
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+class Solution:
+    def increasingBST(self, root: TreeNode) -> TreeNode:
+        if root == None: 
+            return None 
+        root.right = self.increasingBST(root.right)
+        tmp = self.increasingBST(root.left)
+        if tmp != None:
+            tmp1 = tmp
+            while tmp1.right != None: 
+                tmp1 = tmp1.right
+            tmp1.right = root
+            root.left = None
+            return tmp
+        else: 
+            return root 
+ ```
+
 2022 04 15
 
 **Medium**
