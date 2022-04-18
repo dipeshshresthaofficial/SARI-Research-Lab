@@ -1,3 +1,44 @@
+2022 04 17 
+
+**Medium** 
+
+[kth-smallest-element-in-a-bst](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) 
+
+```python
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+class Solution:
+       
+    def size(self, root, k, count, ans):
+        if root == None or ans[0] != -1: 
+            return 0
+  
+        s1 = self.size(root.left, k, count, ans)
+        count += s1 
+        
+        count += 1 
+        if count == k and ans[0] == -1: 
+            ans[0] = root.val 
+        
+        s2 = self.size (root.right, k, count, ans)
+        count += s2   
+        return s1 + s2 + 1 
+
+    def kthSmallest(self, root: Optional[TreeNode], k: int) -> int:
+        # recursively compute the size of the tree by scanning from smallest to largest 
+        # keep a count of the size scanned so far 
+        # return when the count == k
+        count = 0 
+        ans = [-1] 
+        self.size(root, k, count, ans) 
+        return ans[0]
+```
+
+
 2022 04 16 
 
 **Easy** 
