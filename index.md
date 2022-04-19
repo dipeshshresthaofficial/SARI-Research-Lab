@@ -13,11 +13,11 @@ The lab aims at establishing and marketing a research group to help foster stude
 |  <!-- --> |  <!-- --> |
 |:---------:|:---------:|
 | <img src="img/1624731462921.jpeg" width="250"> | <img src="img/279.jpeg" width="250"> |
-| **Mohamed Nassar** is assistant professor at the University *of* New Haven. His research interests are cybersecurity and machine learning. | **Modhuparna Manna** is assistant professor at the University *of* New Haven. Her research interests are application security, memory forensics, digital forensics, malware analysis, and reverse engineering. |
+| [**Mohamed Nassar**]() is assistant professor at the University *of* New Haven. His research interests are cybersecurity and machine learning. | [**Modhuparna Manna**](https://www.linkedin.com/in/modhuparna-manna-5217b035/) is assistant professor at the University *of* New Haven. Her research interests are application security, memory forensics, digital forensics, malware analysis, and reverse engineering. |
 | <img src="img/IMG_20220311_161949__01.jpg" width="250"> | <img src="img/263.jpeg" width="250"> |
-| **Shivanjali Khare** is an assistant professor at the University of New Haven. Her research interests are modeling more resilient IoT and sensors technology toward cyber-attacks using Cryptography and Artificial Intelligence. | **Acil Farhat** is graduate research assistant pursuing a master degree in cybersecurity at the University *of* New Haven. She is interested in homomorphic cryptography and Microsoft SEAL. |
+| [**Shivanjali Khare**](https://www.linkedin.com/in/shivanjalikhare/) is an assistant professor at the University of New Haven. Her research interests are modeling more resilient IoT and sensors technology toward cyber-attacks using Cryptography and Artificial Intelligence. | **Acil Farhat** is graduate research assistant pursuing a master degree in cybersecurity at the University *of* New Haven. She is interested in homomorphic cryptography and Microsoft SEAL. |
 | <img src="img/logo-sari.jpg" width="250"> | <img src="img/1649867518382.jpeg" width="250"> |
-| | **Rajdeep Bhattacharya** is a graduate student pursuing a computer science degree at the University *of* New Haven. He is interested in integrating AI in the domain of cybersecurity. |
+| | [**Rajdeep Bhattacharya**](https://www.linkedin.com/in/rajdeepbhattacharyakolkata/) is a graduate student pursuing a computer science degree at the University *of* New Haven. He is interested in integrating AI in the domain of cybersecurity. |
 
 ### Collaborations 
 
