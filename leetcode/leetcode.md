@@ -1,3 +1,42 @@
+2002 04 18
+
+**Medium** 
+
+[recover-binary-search-tree](https://leetcode.com/problems/recover-binary-search-tree) 
+
+```python
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+class Solution:
+    def findOutofOrder(self, root, min_, max_, L):
+        if root == None: 
+            return 
+        if root.val < min_.val: 
+            L.append(root)
+            L.append(min_)
+        if root.val > max_.val: 
+            L.append(max_)
+            L.append(root)
+        self.findOutofOrder(root.right, root, max_, L)
+        self.findOutofOrder(root.left, min_, root, L)
+
+
+    def recoverTree(self, root: Optional[TreeNode]) -> None:
+        """
+        Do not return anything, modify root in-place instead.
+        """
+        min_ = TreeNode(-2 ** 31 - 1)
+        max_ = TreeNode(2 ** 31)
+        L = []
+        self.findOutofOrder(root, min_, max_, L)
+        L.sort(key=lambda node: node.val)
+        L[0].val, L[-1].val = L[-1].val, L[0].val
+```
+
 2022 04 17 
 
 **Medium** 
