@@ -1,0 +1,151 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+@media (prefers-color-scheme: dark) {
+	
+	font-family: "trebuchet ms", verdana, arial, sans-serif;
+	font-size: 16px;
+	fill: #ccc;
+
+
+ .error-icon {
+	fill: #a44141;
+}
+
+ .error-text {
+	fill: #ddd;
+	stroke: #ddd;
+}
+
+ .edge-thickness-normal {
+	stroke-width: 2px;
+}
+
+ .edge-thickness-thick {
+	stroke-width: 3.5px;
+}
+
+ .edge-pattern-solid {
+	stroke-dasharray: 0;
+}
+
+ .edge-pattern-dashed {
+	stroke-dasharray: 3;
+}
+
+ .edge-pattern-dotted {
+	stroke-dasharray: 2;
+}
+
+    .marker {
+        fill: #ddd !important;
+        stroke: #ddd !important;
+    }
+
+ .marker.cross {
+	stroke: #ddd;
+}
+
+ svg {
+	font-family: "trebuchet ms", verdana, arial, sans-serif;
+	font-size: 16px;
+}
+
+ .label {
+	background-color: #333 !important;
+        color: #fff !important;
+	font-family: "trebuchet ms", verdana, arial, sans-serif;
+}
+
+ .cluster-label text {
+	fill: #F9FFFE;
+}
+
+ .cluster-label span {
+	color: #F9FFFE;
+}
+
+ .label text,
+ span {
+	fill: #ccc;
+	color: #ccc;
+}
+
+ .node rect,
+ .node circle,
+ .node ellipse,
+ .node polygon,
+ .node path {
+	fill: #333 !important;
+        stroke: #aaa !important;
+}
+
+ .node .label {
+	text-align: center;
+}
+
+ .node.clickable {
+	cursor: pointer;
+}
+
+ .arrowheadPath {
+	fill: #ddd !important;
+        stroke: #ddd !important;
+}
+
+ .edgePath .path {
+	stroke-width: 2.0px;
+	stroke: #ddd !important;
+}
+
+ .flowchart-link {
+	stroke: lightgrey;
+	fill: none;
+}
+
+ .edgeLabel {
+	background-color: h#333;
+	color: #fff;
+	text-align: center;
+}
+
+ .edgeLabel rect {
+	opacity: 0.5;
+	background-color: hsl(0, 0%, 34.4117647059%);
+	fill: hsl(0, 0%, 34.4117647059%);
+}
+
+   .cluster rect {
+        fill: #333 !important;
+        stroke: #aaa !important;
+    }
+
+
+ .cluster text {
+	fill: #F9FFFE;
+}
+
+ .cluster span {
+	color: #F9FFFE;
+}
+
+ div.mermaidTooltip {
+	position: absolute;
+	text-align: center;
+	max-width: 200px;
+	padding: 2px;
+	font-family: "trebuchet ms", verdana, arial, sans-serif;
+	font-size: 12px;
+	background: hsl(20, 1.5873015873%, 12.3529411765%);
+	border: 1px solid rgba(255, 255, 255, 0.25);
+	border-radius: 2px;
+	pointer-events: none;
+	z-index: 100;
+}
+}
+
+:root {
+	--sequence-theme: "hand", --mermaid-font-family: "trebuchet ms", verdana, arial, sans-serif;
+}

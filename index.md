@@ -1,12 +1,15 @@
-
-<link rel="shortcut icon" type="image/jpg" href="img/logo-sari.jpg">
-<img align ="right" src="img/logo-sari.jpg" width="300">
-
 ## SARI -- Security & ARtificial Intelligence Lab 
 
 ### Welcome to SARI: Security and ARtificial Intelligence Lab at University *of* New Haven. 
 
-The lab aims at establishing and marketing a research group to help foster students' interest and participation in research projects.
+**SARI** is the ultimate space for students and professors to work on research projects together! The lab aims at fostering students’ interest and participation in research projects.
+Our research objectives are centered around the following thrusts:
+
+- Modeling more resilient IoT systems, cloud and wireless sensor technology toward cyber-attacks using cryptography, Artificial Intelligence (AI), and data analytics.
+- Reverse engineering, malware analysis, and cyber forensics.
+- AI security and trustworthiness, and AI applications in cybersecurity.
+
+We believe in actively engaging students and pursuing research that encourage diversity and inclusion. *“We lead the lab and we set the lab culture”*.
 
 ### Team Members
 
@@ -47,7 +50,7 @@ Team members serve as program committee members at renown international conferen
 - Carlson, A., **Khare, S.,** Dutta, I.K., Ghosh, B. and Totaro, M., 2022, January. Space Selection and Abstraction in Set Theoretic Estimation. In 2022 IEEE 12th Annual Computing and Communication Workshop and Conference (CCWC) (pp. 0012-0020). IEEE.
 - Ghosh, Bhaskar, Indira Kalyan Dutta, **Shivanjali Khare**, Albert Carlson, and Michael Totaro. "Isomorphic cipher reduction." In 2021 IEEE 12th Annual Information Technology, Electronics and Mobile Communication Conference (IEMCON), pp. 0947-0953. IEEE, 2021.
 - D. A. Bared and **M. Nassar**, [Segmentation Fault: A Cheap Defense Against Adversarial Machine Learning](https://ieeexplore.ieee.org/document/9678308), 2021 3rd IEEE Middle East and North Africa COMMunications Conference (MENACOMM), 2021, pp. 37-42, doi: 10.1109/MENACOMM50742.2021.9678308.
-- Sara Hajj Ibrahim and *M. Nassar*, [Hack The Box: Fooling Deep Learning Abstraction-Based Monitors.](https://sites.google.com/view/ai4an2021/accepted-papers)
+- Sara Hajj Ibrahim and **M. Nassar**, [Hack The Box: Fooling Deep Learning Abstraction-Based Monitors.](https://sites.google.com/view/ai4an2021/accepted-papers)
 
 
 ### LeetCode 
@@ -57,6 +60,10 @@ Team members enjoy solving leetcode puzzles.
 
 Check our custom solutions to leet code puzzles
 [Daily LeetCode](leetcode/leetcode.md)
+
+### Hack The Box 
+Team members enjoy pwning Hack The Box machines. 
+Take a look at our [mini-walkthroughs](htb/htb.md). The idea is to represent each box as a tree of hints in a very compact manner. No need to go through lengthy tutorials. 
 
 ### TryHackMe
 Some team members enjoy hacking THM Rooms. 
@@ -73,7 +80,8 @@ We plan to have a flag gallery to display some flag pics.
 ### Chess 
 Some team members enjoy playing a chess game [Challenge me](https://www.chess.com/member/moh-nass-581).
 
-<iframe id="9115295" allowtransparency="true" frameborder="0" style="width:100%;border:none;" src="//www.chess.com/emboard?id=9115295"></iframe><script>window.addEventListener("message",e=>{e['data']&&"9115295"===e['data']['id']&&document.getElementById(`${e['data']['id']}`)&&(document.getElementById(`${e['data']['id']}`).style.height=`${e['data']['frameHeight']-30}px`)});</script>
+<iframe id="9115295" allowtransparency="true" frameborder="0" style="width:40%;border:none;" src="//www.chess.com/emboard?id=9115295"></iframe><script>window.addEventListener("message",e=>{e['data']&&"9115295"===e['data']['id']&&document.getElementById(`${e['data']['id']}`)&&(document.getElementById(`${e['data']['id']}`).style.height=`${e['data']['frameHeight']-30}px`)});</script>
+
 
 ### Sibling Labs
 
@@ -85,7 +93,7 @@ Some team members enjoy playing a chess game [Challenge me](https://www.chess.co
 
 ### Join or Contact
 
-If you are interested in joining our group or just have a chat, feel free to add us on Linkedin [nassar](https://www.linkedin.com/in/nassar1/) or send an email [Contact Us](mailto:mnassar@newhaven.edu).
+If you are interested in joining our group or just have a chat, feel free to add us on Linkedin [Modhu](https://www.linkedin.com/in/modhuparna-manna-5217b035/), [Nassar](https://www.linkedin.com/in/nassar1/), [Shivi](https://www.linkedin.com/in/shivanjalikhare/) or send an email [Contact Us](mailto:mnassar@newhaven.edu).
 
 
 
