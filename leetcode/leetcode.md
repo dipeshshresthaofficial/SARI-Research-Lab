@@ -2,6 +2,57 @@
 
 **Medium**
 
+[min-cost-to-connect-all-points](https://leetcode.com/problems/min-cost-to-connect-all-points) 
+
+Minimum Spanning Tree (MST) on a complete graph. Can be solved using Prim's or Kruskal's algorithms. 
+
+Here is our Kruskal's solution: 
+
+```python
+class Solution:
+    def minCostConnectPoints(self, points: List[List[int]]) -> int:
+        if len(points) == 1: 
+            return 0
+        
+        def root(x): 
+            while id[x] != x: 
+                id[x] = id[id[x]] 
+                x = id[x] 
+            return x 
+        
+        def union(x, y): 
+            p = root(x) 
+            q = root(y)
+            id[p] = id[q]
+            
+        id = {} 
+        for i in range(len(points)): 
+            id[i] = i 
+        
+        distances = []
+        for i in range (len(points)): 
+            for j in range(i+1, len(points)):
+                distances.append((i, j, \
+                abs(points[i][0] - points[j][0]) + abs(points[i][1] - points[j][1]))) 
+
+        distances.sort(key=lambda d: d[2])
+        cost = 0 
+        k = 0 
+        for distance in distances:
+            i, j, d = distance
+            if root(i) != root(j): 
+                union(i,j)
+                cost += d
+                k += 1
+                if k == len(points) - 1: 
+                    break
+        return cost 
+```
+
+2022 04 24
+
+**Medium**
+
 [peeking-iterator](https://leetcode.com/problems/peeking-iterator/)
 
 ```python
