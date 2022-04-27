@@ -1,3 +1,59 @@
+2022 04 26
+
+**Medium**
+
+[smallest-string-with-swaps](https://leetcode.com/problems/smallest-string-with-swaps) 
+
+```python
+class Solution:
+    def smallestStringWithSwaps(self, s: str, pairs: List[List[int]]) -> str:
+        # build the set of disjoint sets 
+        # for each disjoint set, sort the letters 
+        def root(x): 
+            while id[x] != x: 
+                id[x] = id[id[x]] 
+                x = id[x] 
+            return x 
+        
+        def union(x, y): 
+            p = root(x) 
+            q = root(y)
+            id[p] = id[q]
+            
+        l = list(s)
+        indices = set() 
+        for (x, y) in pairs: 
+            indices.add(x) 
+            indices.add(y) 
+        indices = list(indices)
+        
+        id = {} 
+        for i in indices: 
+            id[i] = i 
+        
+        for (i, j) in pairs: 
+            if root(i) != root(j): 
+                union(i,j)
+        
+        disj = {} 
+        for i in indices:
+            r = root(i)
+            if not r in disj:
+                disj[r] = [i] 
+            else: 
+                disj[r].append(i)
+                
+        for d in disj: 
+            sub = [ s[i] for i in disj[d] ] 
+            sub.sort() 
+            j = 0 
+            for i in disj[d]: 
+                l[i] = sub[j]
+                j+=1
+            
+        return "".join(l) 
+```
+
 2022 04 25
 
 **Medium**
