@@ -1,3 +1,75 @@
+2022 04 27
+
+**Medium** 
+
+[path-with-minimum-effort](https://leetcode.com/problems/path-with-minimum-effort) 
+
+Tried with uniderctional UCS search, got time limit exceeded. Bi-directional search passed.
+```python
+import heapq 
+
+class Solution:
+    def minimumEffortPath(self, heights: List[List[int]]) -> int:
+        rows = len(heights)
+        cols = len(heights[0]) 
+        
+        def get_actions(pos): 
+            actions = [] 
+            x, y = pos 
+            # left 
+            # x, y + 1 
+            if y + 1 < cols: 
+                actions.append ((x, y+1))
+            # right 
+            # x, y - 1
+            if y - 1 >= 0: 
+                actions.append((x, y-1))
+            # up 
+            # x - 1, y
+            if x - 1 >= 0: 
+                actions.append((x-1, y))
+            # bottom
+            # x + 1, y
+            if x + 1 < rows: 
+                actions.append((x+1, y))
+            return actions         
+            
+            
+        L1 = [(0,0,0)] 
+        L2 = [(0, rows-1, cols-1)]
+        heapq.heapify(L1)
+        heapq.heapify(L2)
+        visited1 = {} 
+        visited2 = {}
+        while L1 != [] or L2 != [] : 
+            pos1 = heapq.heappop(L1)
+            pos2 = heapq.heappop(L2)
+            
+            # have cost first so the heap gives the least cost 
+            cost1, x1, y1 = pos1
+            cost2, x2, y2 = pos2  
+            
+            visited1[(x1, y1)] = cost1
+            visited2[(x2, y2)] = cost2
+            
+            if (x1, y1) in visited2: 
+                return max(visited1[(x1,y1)], visited2[(x1,y1)])
+            if (x2, y2) in visited1:
+                return max(visited1[(x2,y2)], visited2[(x2,y2)])
+                
+            for a in get_actions((x1,y1)): 
+                x_, y_ = a
+                if not (x_, y_) in visited1:
+                    cost_ = abs(heights[x_][y_] - heights[x1][y1])
+                    heapq.heappush(L1, ( max(cost_, cost1), x_, y_ ) )
+                    
+            for a in get_actions((x2,y2)): 
+                x_, y_ = a
+                if not (x_, y_) in visited2:
+                    cost_ = abs(heights[x_][y_] - heights[x2][y2])
+                    heapq.heappush(L2, ( max(cost_, cost2), x_, y_ ) )
+```
+
 2022 04 26
 
 **Medium**
