@@ -1,3 +1,53 @@
+2022 04 29
+
+**Medium** 
+
+[evaluate-division](https://leetcode.com/problems/evaluate-division/) 
+
+```python
+class Solution:
+    def calcEquation(self, equations: List[List[str]], values: List[float], queries: List[List[str]]) -> List[float]:
+        def dfs(start, end): 
+            stack = [(start, 1)]
+            visited = set() 
+            while stack!=[]: 
+                x, val = stack.pop()
+                if x == end: 
+                    return val 
+                visited.add(x)
+                for y in nei[x]: 
+                    if y not in visited: 
+                        stack.append((y, val * edges[(x,y)]))
+            return False 
+            
+        vertices = set() 
+        edges = {}
+        nei = {} 
+        for i in range(len(equations)):
+            edges[equations[i][0], equations[i][1]] = values[i]
+            edges[equations[i][1], equations[i][0]] = 1/values[i]
+            vertices.add(equations[i][0])
+            vertices.add(equations[i][1])
+        
+        for v in vertices: 
+            nei[v] = [] 
+        for e in equations: 
+            nei[e[0]].append(e[1])
+            nei[e[1]].append(e[0])
+        
+        ans = [] 
+        for q in queries: 
+            if q[0] not in vertices or q[1] not in vertices: 
+                ans.append(-1)
+            else: 
+                res = dfs(q[0],q[1])
+                if not res: 
+                    ans.append(-1)
+                else: 
+                    ans.append(res)
+        return ans
+```
+
 2022 04 27
 
 **Medium** 
