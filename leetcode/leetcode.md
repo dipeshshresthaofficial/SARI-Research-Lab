@@ -48,6 +48,34 @@ class Solution:
         return ans
 ```
 
+2022 04 28
+
+**Medium**
+
+[is-graph-bipartite](https://leetcode.com/problems/is-graph-bipartite)
+
+```python
+class Solution:
+    def isBipartite(self, graph: List[List[int]]) -> bool:
+        color = {} 
+        for i in range(len(graph)): 
+            if i in color: 
+                continue
+            else: 
+                stack = [i]
+                color[i] = 0
+                while stack != []:  
+                    x = stack.pop() 
+                    for y in graph[x]: 
+                        if y in color:
+                            if color[y] == color[x]:
+                                return False
+                        else: 
+                            color[y] = (color[x] + 1) % 2
+                            stack.append(y)
+        return True 
+```
+
 2022 04 27
 
 **Medium** 
