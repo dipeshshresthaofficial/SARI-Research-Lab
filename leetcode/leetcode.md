@@ -1,3 +1,52 @@
+2022 04 30
+
+**Easy**
+
+[backspace-string-compare](https://leetcode.com/problems/backspace-string-compare) 
+
+O(N) time O(1) space solution 
+
+```python
+class Solution:
+    def backspaceCompare(self, s: str, t: str) -> bool:
+        i = len(s) - 1 
+        j = len(t) - 1 
+        tbe_i = 0 
+        tbe_j = 0
+        
+        while True: 
+            while i > -1 and (s[i] == '#' or tbe_i > 0):
+                while i > -1 and s[i] == '#':
+                    tbe_i += 1 
+                    i -= 1
+                while i > -1 and tbe_i > 0 and s[i] != '#':
+                    i -= 1 
+                    tbe_i -= 1
+            # print (s[:i+1])
+            while j > -1 and (t[j] == '#' or tbe_j > 0):
+                while j > -1 and t[j] == '#': 
+                    tbe_j += 1
+                    j -= 1   
+                while j > -1 and tbe_j > 0 and t[j] != '#': 
+                    j -= 1 
+                    tbe_j -= 1
+                    
+            if i == -1 and j == -1: 
+                return True 
+            
+            if i == -1 and j != -1: 
+                return False
+            
+            if i != -1 and j == -1: 
+                return False
+             
+            if s[i] != t[j]: 
+                return False 
+            
+            if s[i] == t[j]: 
+                i -= 1
+                j -= 1
+```
 2022 04 29
 
 **Medium** 
