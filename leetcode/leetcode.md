@@ -1,3 +1,30 @@
+2022 05 01
+
+**Easy**
+
+[sort-array-by-parity](https://leetcode.com/problems/sort-array-by-parity/)
+
+In-place solution 
+
+```python
+class Solution:
+    def sortArrayByParity(self, nums: List[int]) -> List[int]:
+        #pairs --> impairs
+        i = 0 
+        j = len(nums) - 1  
+        while i < j: 
+            if nums[i] % 2 == 1: 
+                if nums[j] % 2 == 1:
+                    j -= 1
+                else: 
+                    nums[i], nums[j] = nums[j], nums[i]
+                    i += 1
+                    j -= 1
+            else: 
+                i += 1 
+        return nums
+```
+
 2022 04 30
 
 **Easy**
