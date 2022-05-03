@@ -95,7 +95,12 @@ Some team members enjoy playing a chess game [Challenge me](https://www.chess.co
 
 ### Join or Contact
 
-If you are interested in joining our group or just have a chat, feel free to add us on Linkedin [Modhu](https://www.linkedin.com/in/modhuparna-manna-5217b035/), [Nassar](https://www.linkedin.com/in/nassar1/), [Shivi](https://www.linkedin.com/in/shivanjalikhare/) or send an email [Contact Us](mailto:mnassar@newhaven.edu).
+
+If you are interested in joining our group or just have a chat, you are invited to fill the following form.
+
+<iframe width="640px" height="480px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=q8txPO21O0-sDZVQnWwOkxC0wQj2rzhJq48KWPxfcjZUMUdNUThNUk1XVlVVUExIOFBKQzRRTTRXRS4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+
+Feel free to add us on Linkedin [Modhu](https://www.linkedin.com/in/modhuparna-manna-5217b035/), [Nassar](https://www.linkedin.com/in/nassar1/), [Shivi](https://www.linkedin.com/in/shivanjalikhare/) or send an email [Contact Us](mailto:mnassar@newhaven.edu).
 
 
 
