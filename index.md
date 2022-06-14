@@ -30,6 +30,10 @@ We believe in actively engaging students and pursuing research that encourage di
 
 [Yehya NASSER](https://www.linkedin.com/in/yehya-nasser-phd/), Associate Professor, IMT Atlantique, France. Hardware Security & Embedded AI.
 
+### Teaching
+
+[Ethical Hacking Course](EH-course/Ethical Hacking Course.pdf)
+
 ### Current Research Projects 
 - Explainable Malware Classification
 - AI Fairness for Network Flow Monitoring
