@@ -1,3 +1,5 @@
+<img src="img/logo-sari.jpg" width="250" align="right">
+
 ## SARI -- Security & ARtificial Intelligence Lab 
 
 ### Welcome to SARI: Security and ARtificial Intelligence Lab at University *of* New Haven. 
@@ -18,7 +20,7 @@ We believe in actively engaging students and pursuing research that encourage di
 | <img src="img/1624731462921.jpeg" width="250"> | <img src="img/279.jpeg" width="250"> |
 | [**Mohamed Nassar**](https://www.linkedin.com/in/nassar1/) is assistant professor at the University *of* New Haven. His research interests are cybersecurity and machine learning. | [**Modhuparna Manna**](https://www.linkedin.com/in/modhuparna-manna-5217b035/) is assistant professor at the University *of* New Haven. Her research interests are application security, memory forensics, digital forensics, malware analysis, and reverse engineering. |
 | <img src="img/IMG_20220311_161949__01.jpg" width="250"> | <img src="img/263.jpeg" width="250"> |
-| [**Shivanjali Khare**](https://www.linkedin.com/in/shivanjalikhare/) is an assistant professor at the University of New Haven. Her research interests are modeling more resilient IoT and sensors technology toward cyber-attacks using Cryptography and Artificial Intelligence. | **Acil Farhat** is graduate research assistant pursuing a master degree in cybersecurity at the University *of* New Haven. She is interested in homomorphic cryptography and Microsoft SEAL. |
+| [**Shivanjali Khare**](https://www.linkedin.com/in/shivanjalikhare/) is assistant professor at the University *of* New Haven. Her research interests are modeling more resilient IoT and sensors technology toward cyber-attacks using Cryptography and Artificial Intelligence. | [**Acil Farhat**](https://www.linkedin.com/in/acil-farhat-9452171a0/) is graduate research assistant pursuing a master degree in cybersecurity at the University *of* New Haven. She is interested in homomorphic cryptography and Microsoft SEAL. |
 | <img src="img/logo-sari.jpg" width="250"> | <img src="img/1649867518382.jpeg" width="250"> |
 | | [**Rajdeep Bhattacharya**](https://www.linkedin.com/in/rajdeepbhattacharyakolkata/) is a graduate student pursuing a computer science degree at the University *of* New Haven. He is interested in integrating AI in the domain of cybersecurity. |
 
@@ -77,11 +79,6 @@ We plan to have a flag gallery to display some flag pics.
 |:---------:|:---------:|
 | <img src="img/flag1.png" width="250"> | <img src="img/flag2.png" width="250"> |
 
-### Chess 
-Some team members enjoy playing a chess game [Challenge me](https://www.chess.com/member/moh-nass-581).
-
-<iframe id="9115295" allowtransparency="true" frameborder="0" style="width:40%;border:none;" src="//www.chess.com/emboard?id=9115295"></iframe><script>window.addEventListener("message",e=>{e['data']&&"9115295"===e['data']['id']&&document.getElementById(`${e['data']['id']}`)&&(document.getElementById(`${e['data']['id']}`).style.height=`${e['data']['frameHeight']-30}px`)});</script>
-
 
 ### Sibling Labs
 
@@ -93,7 +90,12 @@ Some team members enjoy playing a chess game [Challenge me](https://www.chess.co
 
 ### Join or Contact
 
-If you are interested in joining our group or just have a chat, feel free to add us on Linkedin [Modhu](https://www.linkedin.com/in/modhuparna-manna-5217b035/), [Nassar](https://www.linkedin.com/in/nassar1/), [Shivi](https://www.linkedin.com/in/shivanjalikhare/) or send an email [Contact Us](mailto:mnassar@newhaven.edu).
+
+If you are interested in joining our group or just have a chat, you are invited to fill the following form.
+
+<iframe width="640px" height="480px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=q8txPO21O0-sDZVQnWwOkxC0wQj2rzhJq48KWPxfcjZUMUdNUThNUk1XVlVVUExIOFBKQzRRTTRXRS4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+
+Feel free to add us on Linkedin [Modhu](https://www.linkedin.com/in/modhuparna-manna-5217b035/), [Nassar](https://www.linkedin.com/in/nassar1/), [Shivi](https://www.linkedin.com/in/shivanjalikhare/) or send an email [Contact Us](mailto:mnassar@newhaven.edu).
 
 
 

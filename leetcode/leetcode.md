@@ -1,3 +1,336 @@
+2022 05 01
+
+**Easy**
+
+[sort-array-by-parity](https://leetcode.com/problems/sort-array-by-parity/)
+
+In-place solution 
+
+```python
+class Solution:
+    def sortArrayByParity(self, nums: List[int]) -> List[int]:
+        #pairs --> impairs
+        i = 0 
+        j = len(nums) - 1  
+        while i < j: 
+            if nums[i] % 2 == 1: 
+                if nums[j] % 2 == 1:
+                    j -= 1
+                else: 
+                    nums[i], nums[j] = nums[j], nums[i]
+                    i += 1
+                    j -= 1
+            else: 
+                i += 1 
+        return nums
+```
+
+2022 04 30
+
+**Easy**
+
+[backspace-string-compare](https://leetcode.com/problems/backspace-string-compare) 
+
+O(N) time O(1) space solution 
+
+```python
+class Solution:
+    def backspaceCompare(self, s: str, t: str) -> bool:
+        i = len(s) - 1 
+        j = len(t) - 1 
+        tbe_i = 0 
+        tbe_j = 0
+        
+        while True: 
+            while i > -1 and (s[i] == '#' or tbe_i > 0):
+                while i > -1 and s[i] == '#':
+                    tbe_i += 1 
+                    i -= 1
+                while i > -1 and tbe_i > 0 and s[i] != '#':
+                    i -= 1 
+                    tbe_i -= 1
+            # print (s[:i+1])
+            while j > -1 and (t[j] == '#' or tbe_j > 0):
+                while j > -1 and t[j] == '#': 
+                    tbe_j += 1
+                    j -= 1   
+                while j > -1 and tbe_j > 0 and t[j] != '#': 
+                    j -= 1 
+                    tbe_j -= 1
+                    
+            if i == -1 and j == -1: 
+                return True 
+            
+            if i == -1 and j != -1: 
+                return False
+            
+            if i != -1 and j == -1: 
+                return False
+             
+            if s[i] != t[j]: 
+                return False 
+            
+            if s[i] == t[j]: 
+                i -= 1
+                j -= 1
+```
+2022 04 29
+
+**Medium** 
+
+[evaluate-division](https://leetcode.com/problems/evaluate-division/) 
+
+```python
+class Solution:
+    def calcEquation(self, equations: List[List[str]], values: List[float], queries: List[List[str]]) -> List[float]:
+        def dfs(start, end): 
+            stack = [(start, 1)]
+            visited = set() 
+            while stack!=[]: 
+                x, val = stack.pop()
+                if x == end: 
+                    return val 
+                visited.add(x)
+                for y in nei[x]: 
+                    if y not in visited: 
+                        stack.append((y, val * edges[(x,y)]))
+            return False 
+            
+        vertices = set() 
+        edges = {}
+        nei = {} 
+        for i in range(len(equations)):
+            edges[equations[i][0], equations[i][1]] = values[i]
+            edges[equations[i][1], equations[i][0]] = 1/values[i]
+            vertices.add(equations[i][0])
+            vertices.add(equations[i][1])
+        
+        for v in vertices: 
+            nei[v] = [] 
+        for e in equations: 
+            nei[e[0]].append(e[1])
+            nei[e[1]].append(e[0])
+        
+        ans = [] 
+        for q in queries: 
+            if q[0] not in vertices or q[1] not in vertices: 
+                ans.append(-1)
+            else: 
+                res = dfs(q[0],q[1])
+                if not res: 
+                    ans.append(-1)
+                else: 
+                    ans.append(res)
+        return ans
+```
+
+2022 04 28
+
+**Medium**
+
+[is-graph-bipartite](https://leetcode.com/problems/is-graph-bipartite)
+
+```python
+class Solution:
+    def isBipartite(self, graph: List[List[int]]) -> bool:
+        color = {} 
+        for i in range(len(graph)): 
+            if i in color: 
+                continue
+            else: 
+                stack = [i]
+                color[i] = 0
+                while stack != []:  
+                    x = stack.pop() 
+                    for y in graph[x]: 
+                        if y in color:
+                            if color[y] == color[x]:
+                                return False
+                        else: 
+                            color[y] = (color[x] + 1) % 2
+                            stack.append(y)
+        return True 
+```
+
+2022 04 27
+
+**Medium** 
+
+[path-with-minimum-effort](https://leetcode.com/problems/path-with-minimum-effort) 
+
+Tried with uniderctional UCS search, got time limit exceeded. Bi-directional search passed.
+```python
+import heapq 
+
+class Solution:
+    def minimumEffortPath(self, heights: List[List[int]]) -> int:
+        rows = len(heights)
+        cols = len(heights[0]) 
+        
+        def get_actions(pos): 
+            actions = [] 
+            x, y = pos 
+            # left 
+            # x, y + 1 
+            if y + 1 < cols: 
+                actions.append ((x, y+1))
+            # right 
+            # x, y - 1
+            if y - 1 >= 0: 
+                actions.append((x, y-1))
+            # up 
+            # x - 1, y
+            if x - 1 >= 0: 
+                actions.append((x-1, y))
+            # bottom
+            # x + 1, y
+            if x + 1 < rows: 
+                actions.append((x+1, y))
+            return actions         
+            
+            
+        L1 = [(0,0,0)] 
+        L2 = [(0, rows-1, cols-1)]
+        heapq.heapify(L1)
+        heapq.heapify(L2)
+        visited1 = {} 
+        visited2 = {}
+        while L1 != [] or L2 != [] : 
+            pos1 = heapq.heappop(L1)
+            pos2 = heapq.heappop(L2)
+            
+            # have cost first so the heap gives the least cost 
+            cost1, x1, y1 = pos1
+            cost2, x2, y2 = pos2  
+            
+            visited1[(x1, y1)] = cost1
+            visited2[(x2, y2)] = cost2
+            
+            if (x1, y1) in visited2: 
+                return max(visited1[(x1,y1)], visited2[(x1,y1)])
+            if (x2, y2) in visited1:
+                return max(visited1[(x2,y2)], visited2[(x2,y2)])
+                
+            for a in get_actions((x1,y1)): 
+                x_, y_ = a
+                if not (x_, y_) in visited1:
+                    cost_ = abs(heights[x_][y_] - heights[x1][y1])
+                    heapq.heappush(L1, ( max(cost_, cost1), x_, y_ ) )
+                    
+            for a in get_actions((x2,y2)): 
+                x_, y_ = a
+                if not (x_, y_) in visited2:
+                    cost_ = abs(heights[x_][y_] - heights[x2][y2])
+                    heapq.heappush(L2, ( max(cost_, cost2), x_, y_ ) )
+```
+
+2022 04 26
+
+**Medium**
+
+[smallest-string-with-swaps](https://leetcode.com/problems/smallest-string-with-swaps) 
+
+```python
+class Solution:
+    def smallestStringWithSwaps(self, s: str, pairs: List[List[int]]) -> str:
+        # build the set of disjoint sets 
+        # for each disjoint set, sort the letters 
+        def root(x): 
+            while id[x] != x: 
+                id[x] = id[id[x]] 
+                x = id[x] 
+            return x 
+        
+        def union(x, y): 
+            p = root(x) 
+            q = root(y)
+            id[p] = id[q]
+            
+        l = list(s)
+        indices = set() 
+        for (x, y) in pairs: 
+            indices.add(x) 
+            indices.add(y) 
+        indices = list(indices)
+        
+        id = {} 
+        for i in indices: 
+            id[i] = i 
+        
+        for (i, j) in pairs: 
+            if root(i) != root(j): 
+                union(i,j)
+        
+        disj = {} 
+        for i in indices:
+            r = root(i)
+            if not r in disj:
+                disj[r] = [i] 
+            else: 
+                disj[r].append(i)
+                
+        for d in disj: 
+            sub = [ s[i] for i in disj[d] ] 
+            sub.sort() 
+            j = 0 
+            for i in disj[d]: 
+                l[i] = sub[j]
+                j+=1
+            
+        return "".join(l) 
+```
+
+2022 04 25
+
+**Medium**
+
+[min-cost-to-connect-all-points](https://leetcode.com/problems/min-cost-to-connect-all-points) 
+
+Minimum Spanning Tree (MST) on a complete graph. Can be solved using Prim's or Kruskal's algorithms. 
+
+Here is our Kruskal's solution: 
+
+```python
+class Solution:
+    def minCostConnectPoints(self, points: List[List[int]]) -> int:
+        if len(points) == 1: 
+            return 0
+        
+        def root(x): 
+            while id[x] != x: 
+                id[x] = id[id[x]] 
+                x = id[x] 
+            return x 
+        
+        def union(x, y): 
+            p = root(x) 
+            q = root(y)
+            id[p] = id[q]
+            
+        id = {} 
+        for i in range(len(points)): 
+            id[i] = i 
+        
+        distances = []
+        for i in range (len(points)): 
+            for j in range(i+1, len(points)):
+                distances.append((i, j, \
+                abs(points[i][0] - points[j][0]) + abs(points[i][1] - points[j][1]))) 
+
+        distances.sort(key=lambda d: d[2])
+        cost = 0 
+        k = 0 
+        for distance in distances:
+            i, j, d = distance
+            if root(i) != root(j): 
+                union(i,j)
+                cost += d
+                k += 1
+                if k == len(points) - 1: 
+                    break
+        return cost 
+```
+
 2022 04 24
 
 **Medium**
