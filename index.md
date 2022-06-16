@@ -32,15 +32,18 @@ We believe in actively engaging students and pursuing research that encourage di
 
 ### Teaching
 
-[Ethical Hacking Course](EH-course/Ethical Hacking Course.pdf)
+- [Ethical Hacking Course](EH-course/Ethical Hacking Course.pdf)
+- [Deep Learning Handbook](https://mnassar.github.io/deeplearninghandbook/)
 
 ### Current Research Projects 
+
 - Explainable Malware Classification
 - AI Fairness for Network Flow Monitoring
 - Deep Learning Reverse Engineering
 
 
 ### Recent Program Committee
+
 Team members serve as program committee members at renown international conferences and workshops. 
 - [IOTSEQ](https://www.sitis-conference.org/2022/contribute/workshops/iotseq/) Co-hosted with SITIS 2022.
 - [BCCA](http://intelligenttech.org/BCCA2022/)
@@ -48,6 +51,7 @@ Team members serve as program committee members at renown international conferen
 
 
 ### Recent Publications 
+
 - **M. Manna**, A. Case, A. Ali-Gombe, G. G. Richard III, " Memory Analysis of .NET and .Net Core Applications," Proceedings of the 2022 Digital Forensics Research Conference (DFRWS), July 2022.  
 - **M. Manna**, A. Case, A. Ali-Gombe, G. G. Richard III,” Modern macOS Userland Runtime Analysis”, Forensic Science International: Digital Investigation (38)C, 301221 
 - **M. Manna**, A. Case, G. G. Richard III, "Performing Mac Memory Analysis Using Objective-C and Swift Data Structures," Proceedings of the 73rd Annual Meeting of the American Academy of Forensic Sciences (AAFS), February 2021, Virtual Meeting. 
@@ -60,6 +64,7 @@ Team members serve as program committee members at renown international conferen
 
 
 ### LeetCode 
+
 Team members enjoy solving leetcode puzzles. 
 
 ![Leetcode Stats](https://leetcode.card.workers.dev/?username=nassar7644&theme=dark)
@@ -68,14 +73,17 @@ Check our custom solutions to leet code puzzles
 [Daily LeetCode](leetcode/leetcode.md)
 
 ### Hack The Box 
+
 Team members enjoy pwning Hack The Box machines. 
 Take a look at our [mini-walkthroughs](htb/htb.md). The idea is to represent each box as a tree of hints in a very compact manner. No need to go through lengthy tutorials. 
 
 ### TryHackMe
+
 Some team members enjoy hacking THM Rooms. 
 <script src="https://tryhackme.com/badge/321956"></script>
 
 ### CTF 
+
 Some team members enjoy participating at Catch-The-Flag events. We compete under [UNHFlagPhishers](https://ctftime.org/team/177610/#.Ylca8Pbkvbs.link).
 We plan to have a flag gallery to display some flag pics. 
 
@@ -93,7 +101,6 @@ We plan to have a flag gallery to display some flag pics.
 [LASER](https://laser.newhaven.edu/)
 
 ### Join or Contact
-
 
 If you are interested in joining our group or just have a chat, you are invited to fill the following form.
 
