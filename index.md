@@ -50,8 +50,6 @@ Team members serve as program committee members at renown international conferen
 
 ### Recent Publications 
 
-- A. Case, R. Maggio, **M. Manna**, G. G. Richard III, "Memory Analysis of macOS Page Queues," Proceedings of the 2020 Digital Forensics Research Conference (DFRWS), July 2020, Memphis, TN. 
-- G. G. Richard III, A. Case, **M. Manna**, E. Hahne, A. Ali-Gombe, Digital Investigation and the Trojan Defense, Revisited. In: Ijeh AC, Curran K, editors. Crime Science and Digital Forensics: A Holistic View, Science Publishers, an imprint of CRC press (Taylor and Francis Group), Boca Raton, FL, USA. 2021. 
 - Carlson, A., **Khare, S.,** Dutta, I.K., Ghosh, B. and Totaro, M., 2022, January. Space Selection and Abstraction in Set Theoretic Estimation. In 2022 IEEE 12th Annual Computing and Communication Workshop and Conference (CCWC) (pp. 0012-0020). IEEE.
 - Ghosh, Bhaskar, Indira Kalyan Dutta, **Shivanjali Khare**, Albert Carlson, and Michael Totaro. "Isomorphic cipher reduction." In 2021 IEEE 12th Annual Information Technology, Electronics and Mobile Communication Conference (IEMCON), pp. 0947-0953. IEEE, 2021.
 - D. A. Bared and **M. Nassar**, [Segmentation Fault: A Cheap Defense Against Adversarial Machine Learning](https://ieeexplore.ieee.org/document/9678308), 2021 3rd IEEE Middle East and North Africa COMMunications Conference (MENACOMM), 2021, pp. 37-42, doi: 10.1109/MENACOMM50742.2021.9678308.
@@ -101,7 +99,7 @@ If you are interested in joining our group or just have a chat, you are invited 
 
 <iframe width="640px" height="480px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=q8txPO21O0-sDZVQnWwOkxC0wQj2rzhJq48KWPxfcjZUMUdNUThNUk1XVlVVUExIOFBKQzRRTTRXRS4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
 
-Feel free to add us on Linkedin [Modhu](https://www.linkedin.com/in/modhuparna-manna-5217b035/), [Nassar](https://www.linkedin.com/in/nassar1/), [Shivi](https://www.linkedin.com/in/shivanjalikhare/) or send an email [Contact Us](mailto:mnassar@newhaven.edu).
+Feel free to add us on Linkedin [Nassar](https://www.linkedin.com/in/nassar1/), [Shivi](https://www.linkedin.com/in/shivanjalikhare/) or send an email [Contact Us](mailto:mnassar@newhaven.edu).
 
 
 
