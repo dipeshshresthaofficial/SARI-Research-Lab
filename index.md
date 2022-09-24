@@ -17,12 +17,10 @@ We believe in actively engaging students and pursuing research that encourage di
 
 |  <!-- --> |  <!-- --> |
 |:---------:|:---------:|
-| <img src="img/1624731462921.jpeg" width="250"> | <img src="img/279.jpeg" width="250"> |
-| [**Mohamed Nassar**](https://www.linkedin.com/in/nassar1/) is assistant professor at the University *of* New Haven. His research interests are cybersecurity and machine learning. | [**Modhuparna Manna**](https://www.linkedin.com/in/modhuparna-manna-5217b035/) is assistant professor at the University *of* New Haven. Her research interests are application security, memory forensics, digital forensics, malware analysis, and reverse engineering. |
-| <img src="img/IMG_20220311_161949__01.jpg" width="250"> | <img src="img/263.jpeg" width="250"> |
-| [**Shivanjali Khare**](https://www.linkedin.com/in/shivanjalikhare/) is assistant professor at the University *of* New Haven. Her research interests are modeling more resilient IoT and sensors technology toward cyber-attacks using Cryptography and Artificial Intelligence. | [**Acil Farhat**](https://www.linkedin.com/in/acil-farhat-9452171a0/) is graduate research assistant pursuing a master degree in cybersecurity at the University *of* New Haven. She is interested in homomorphic cryptography and Microsoft SEAL. |
-| <img src="img/logo-sari.jpg" width="250"> | <img src="img/1649867518382.jpeg" width="250"> |
-| | [**Rajdeep Bhattacharya**](https://www.linkedin.com/in/rajdeepbhattacharyakolkata/) is a graduate student pursuing a computer science degree at the University *of* New Haven. He is interested in integrating AI in the domain of cybersecurity. |
+| <img src="img/1624731462921.jpeg" width="250"> |<img src="img/IMG_20220311_161949__01.jpg" width="250"> |
+| [**Mohamed Nassar**](https://www.linkedin.com/in/nassar1/) is assistant professor at the University *of* New Haven. His research interests are cybersecurity and machine learning. | [**Shivanjali Khare**](https://www.linkedin.com/in/shivanjalikhare/) is assistant professor at the University *of* New Haven. Her research interests are modeling more resilient IoT and sensors technology toward cyber-attacks using Cryptography and Artificial Intelligence. |
+| <img src="img/1649867518382.jpeg" width="250"> | <img src="img/263.jpeg" width="250"> |
+| [**Rajdeep Bhattacharya**](https://www.linkedin.com/in/rajdeepbhattacharyakolkata/) is a graduate student pursuing a computer science degree at the University *of* New Haven. He is interested in integrating AI in the domain of cybersecurity. | [**Acil Farhat**](https://www.linkedin.com/in/acil-farhat-9452171a0/) is graduate research assistant pursuing a master degree in cybersecurity at the University *of* New Haven. She is interested in homomorphic cryptography and Microsoft SEAL. |
 
 ### Collaborations 
 
@@ -52,9 +50,6 @@ Team members serve as program committee members at renown international conferen
 
 ### Recent Publications 
 
-- **M. Manna**, A. Case, A. Ali-Gombe, G. G. Richard III, " Memory Analysis of .NET and .Net Core Applications," Proceedings of the 2022 Digital Forensics Research Conference (DFRWS), July 2022.  
-- **M. Manna**, A. Case, A. Ali-Gombe, G. G. Richard III,” Modern macOS Userland Runtime Analysis”, Forensic Science International: Digital Investigation (38)C, 301221 
-- **M. Manna**, A. Case, G. G. Richard III, "Performing Mac Memory Analysis Using Objective-C and Swift Data Structures," Proceedings of the 73rd Annual Meeting of the American Academy of Forensic Sciences (AAFS), February 2021, Virtual Meeting. 
 - A. Case, R. Maggio, **M. Manna**, G. G. Richard III, "Memory Analysis of macOS Page Queues," Proceedings of the 2020 Digital Forensics Research Conference (DFRWS), July 2020, Memphis, TN. 
 - G. G. Richard III, A. Case, **M. Manna**, E. Hahne, A. Ali-Gombe, Digital Investigation and the Trojan Defense, Revisited. In: Ijeh AC, Curran K, editors. Crime Science and Digital Forensics: A Holistic View, Science Publishers, an imprint of CRC press (Taylor and Francis Group), Boca Raton, FL, USA. 2021. 
 - Carlson, A., **Khare, S.,** Dutta, I.K., Ghosh, B. and Totaro, M., 2022, January. Space Selection and Abstraction in Set Theoretic Estimation. In 2022 IEEE 12th Annual Computing and Communication Workshop and Conference (CCWC) (pp. 0012-0020). IEEE.
