@@ -70,6 +70,8 @@ Check our custom solutions to leet code puzzles
 Team members enjoy pwning Hack The Box machines. 
 Take a look at our [mini-walkthroughs](htb/htb.md). The idea is to represent each box as a tree of hints in a very compact manner. No need to go through lengthy tutorials. 
 
+[ ![Relwarc17](https://www.hackthebox.eu/badge/image/50618)](https://www.hackthebox.eu/home/users/profile/50618)
+
 ### TryHackMe
 
 Some team members enjoy hacking THM Rooms. 
