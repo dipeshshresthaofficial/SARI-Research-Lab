@@ -9,15 +9,41 @@
       @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
     </style>
     <link rel="stylesheet" href="assets/styles/index.css" />
+    <!-- <link rel="" type="image/x-icon" href="favicon.ico" /> -->
+    <link rel="icon" href="./assets/images/logo-sari-favicon.jpg">
   </head>
   <body>
     <!-- Banner -->
     <div id="banner">
       <header id="nav">
-        <a href="#" class="logo">SARI</a>
-        <div class="toggle"></div>
+        <div class="logo">
+          <img src="./assets/images/logo-sari.jpg" alt="SARI Logo" />
+          <!-- <a href="#">SARI</a> -->
+        </div>
+        <label class="hamburger" for="toggle" onclick="document.getElementById('toggle').checked? closeMenu():openMenu()">&#9776;</label>
+        <input type="checkbox" id="toggle"/>
+        <div id="menu">
+          <div>
+            <a href="#banner" onclick="closeMenu()">Home</a>
+          </div>
+          <div>
+            <a href="#about-sec" onclick="closeMenu()">About Us</a>
+          </div>
+          <div>
+            <a href="#services-sec" onclick="closeMenu()">Our Services</a>
+          </div>
+          <div>
+            <a href="#involvement-sec" onclick="closeMenu()">Our Involvement</a>
+          </div>
+          <div>
+            <a href="#research-sec" onclick="closeMenu()">Our Research</a>
+          </div>
+          <div>
+            <a href="#team-sec" onclick="closeMenu()">Our Team</a>
+          </div>
+        </div>
       </header>
-      <img src="./assets/images/green_code.jpg" />
+      <img class="banner-img" src="./assets/images/green_code.jpg" />
       <div class="content">
         <h2>Security & ARtificial Intelligence Lab</h2>
         <p>
@@ -188,6 +214,20 @@
         </li>
         <li>
           <div class="item">
+            <span>3</span>
+            <div class="content-container">
+              <p class="research-date">Dec 2021</p>
+              <p class="research-content">
+                D. A. Bared and M. Nassar, Segmentation Fault: A Cheap Defense
+                Against Adversarial Machine Learning, 2021 3rd IEEE Middle East
+                and North Africa COMMunications Conference (MENACOMM), 2021, pp.
+                37-42, doi: 10.1109/ MENACOMM5074 2.2021.9678308.
+              </p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="item">
             <span>2</span>
             <div class="content-container">
               <p class="research-date">Oct 2021</p>
@@ -197,20 +237,6 @@
                 2021 IEEE 12th Annual Information Technology, Electronics and
                 Mobile Communication Conference (IEMCON), pp. 0947-0953. IEEE,
                 2021.
-              </p>
-            </div>
-          </div>
-        </li>
-        <li>
-          <div class="item">
-            <span>3</span>
-            <div class="content-container">
-              <p class="research-date">Dec 2021</p>
-              <p class="research-content">
-                D. A. Bared and M. Nassar, Segmentation Fault: A Cheap Defense
-                Against Adversarial Machine Learning, 2021 3rd IEEE Middle East
-                and North Africa COMMunications Conference (MENACOMM), 2021, pp.
-                37-42, doi: 10.1109/ MENACOMM5074 2.2021.9678308.
               </p>
             </div>
           </div>
@@ -269,6 +295,23 @@
           <div class="upper-box"></div>
           <div class="below-box"></div>
           <div>
+            <span>Saida Elmi</span>
+            <p>Assistant Professor</p>
+            <div class="social-medias">
+              <a href="https://www.linkedin.com/in/saida-elmi-sayda-872a4761/"
+                ><img src="./assets/images/linkedin.png"
+              /></a>
+              <a href="#"><img src="./assets/images/github-icon.png" /></a>
+            </div>
+          </div>
+          <div class="img-box">
+            <img src="./assets/images/saida.png" />
+          </div>
+        </div>
+        <div class="outer-box">
+          <div class="upper-box"></div>
+          <div class="below-box"></div>
+          <div>
             <span>Rajdeep Bhattacharya</span>
             <p>Graduate Student</p>
             <div class="social-medias">
@@ -296,7 +339,7 @@
               <a href="https://www.linkedin.com/in/dipesh0314/"
                 ><img src="./assets/images/linkedin.png"
               /></a>
-              <a href="https://github.com/dipeshshresthaofficial"
+              <a href="https://github.com/theInnovativeProgrammer"
                 ><img src="./assets/images/github-icon.png"
               /></a>
             </div>
@@ -372,6 +415,21 @@
             body.style.overflow = "auto";
           }
         })
+
+        function closeMenu(){
+          document.getElementById('menu').style.display='none';
+          document.getElementById('toggle').checked = false;
+          // console.log(document.getElementById('toggle').checked);
+        }
+
+        function openMenu(){
+          const menuRef = document.getElementById('menu');
+          menuRef.style.display='block';
+          menuRef.style.textAlign = 'center';
+          menuRef.style.paddingTop = '20px';
+          document.getElementById('toggle').checked = true;
+          // console.log(document.getElementById('toggle').checked);
+        }
     </script>
   </body>
 </html>

@@ -6,6 +6,10 @@
     font-family: 'Poppins',sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 #banner{
     position: relative;
     height: 100vh;
@@ -16,7 +20,7 @@
     align-items: center;
 }
 
-#banner img{
+#banner .banner-img{
     position: absolute;
     top: 0;
     left: 0;
@@ -31,14 +35,30 @@
     left: 0;
     background-color: #252A33;
     width: 100%;
-    padding: 30px 80px;
-    display: flex;
+    padding: 20px 80px;
+    /* display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; */
     z-index: 999;
 }
+/* #banner header img{
+    width: 70px;
+    height: auto;
+} */
+#banner #nav .logo{
+    position: relative;
+    /* width: 140px; */
+    display: inline-block;
+}
+#banner #nav .logo img{
+    width: 60px;
+    height: 40px;
+    margin-right: 5px;
+    border-radius: 4px;
+    box-shadow: -9px 5px 30px -9px rgba(97, 96, 96, 0.64);
 
-#banner header .logo{
+}
+#banner #nav .logo a{
     font-size: 23px;
     text-transform: uppercase;
     text-decoration: none;
@@ -47,13 +67,55 @@
     font-weight: 700;
 }
 
-#banner header .toggle{
+#banner header .hamburger{
     position: relative;
-    background: url('./../images/toggle.png');
-    background-size: cover;
-    width: 30px;
-    height: 25px;
+    /* background: url('./../images/toggle.png');
+    background-size: cover; */
+    /* width: 30px;
+    height: 25px; */
     cursor: pointer;
+    color: #fff;
+    font-size: 30px;
+    float: right;
+    display: block;
+}
+#toggle,#menu{
+    display: none;
+}
+
+#menu a{
+    /* display: block; */
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    font-size: 23px;
+    font-weight: 600;
+    position: relative;
+}
+
+#menu a:before{
+    content: '';
+    position: absolute;
+    bottom:0px;
+    width: 100%;
+    height: 1.5px;
+    background-color: #fff;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform .4s ease-in;
+    white-space: nowrap;
+    
+  }
+#menu a:hover:before{
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+  
+
+#toggle:checked + #menu{
+    display: block;
+    text-align: center;
+    padding-top: 20px;
 }
 
 #banner .content{
