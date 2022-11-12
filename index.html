@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="title" content="SARI | Security & ARtificial Intelligence Research Lab" />
+    <meta name="keywords" content="Lab, Research, Security ,Artificial Intelligence, AI, SARI, University of New Haven, unh sari lab, intelligence" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>SARI</title>
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
@@ -17,10 +20,10 @@
     <div id="banner">
       <header id="nav">
         <div class="logo">
-          <img src="./assets/images/logo-sari.jpg" alt="SARI Logo" />
+          <img loading="lazy" src="./assets/images/logo-sari.jpg" alt="SARI Logo" />
           <!-- <a href="#">SARI</a> -->
         </div>
-        <label class="hamburger" for="toggle" onclick="document.getElementById('toggle').checked? closeMenu():openMenu()">&#9776;</label>
+        <label class="hamburger" for="toggle" onclick="flagForMenu? closeMenu():openMenu()">&#9776;</label>
         <input type="checkbox" id="toggle"/>
         <div id="menu">
           <div>
@@ -43,7 +46,7 @@
           </div>
         </div>
       </header>
-      <img class="banner-img" src="./assets/images/green_code.jpg" />
+      <img loading="lazy" class="banner-img" src="./assets/images/green_code.jpg" />
       <div class="content">
         <h2>Security & ARtificial Intelligence Lab</h2>
         <p>
@@ -52,7 +55,7 @@
           together!
         </p>
         <button class="btn">
-          <img src="./assets/images/github-icon.png" /><a
+          <img loading="lazy" src="./assets/images/github-icon.png" /><a
             href="https://github.com/mnassar/SARI-Research-Lab"
             >View us on GitHub</a
           >
@@ -90,7 +93,7 @@
     </section>
 
     <!-- Our Services Section -->
-    <section id="services-sec">
+    <section id="service-sec">
       <h2 class="heading">Our Services</h2>
       <br />
       <p class="text">
@@ -100,9 +103,9 @@
       </p>
       <br />
       <div class="content">
-        <div class="service">
+        <div id="teaching-service" class="service side-animate">
           <div>
-            <img src="./assets/images/teaching.png" />
+            <img loading="lazy" src="./assets/images/teaching.png" />
             <h2>Teaching</h2>
             <div class="inner-content">
               <p>
@@ -119,9 +122,9 @@
             </div>
           </div>
         </div>
-        <div class="service">
+        <div class="service bottom-animate">
           <div>
-            <img src="./assets/images/research.png" />
+            <img loading="lazy" src="./assets/images/research.png" />
             <h2>Research Projects</h2>
             <div class="inner-content">
               <p><a href="#">Explainable Malware Classification</a></p>
@@ -130,9 +133,9 @@
             </div>
           </div>
         </div>
-        <div class="service">
+        <div class="service bottom-animate">
           <div>
-            <img src="./assets/images/conference.png" />
+            <img loading="lazy" src="./assets/images/conference.png" />
             <h2>Recent Program Committee</h2>
             <div class="inner-content">
               <p>
@@ -150,9 +153,9 @@
             </div>
           </div>
         </div>
-        <div class="service">
+        <div id="sibling-lab-service" class="service side-animate">
           <div>
-            <img src="./assets/images/laboratory.png" />
+            <img loading="lazy" src="./assets/images/laboratory.png" />
             <h2>Sibling Labs</h2>
             <div class="inner-content">
               <p><a href="https://www.unhcfreg.com/">UNHcFreg</a></p>
@@ -179,17 +182,17 @@
       </div>
       <div class="img-area">
         <a href="https://mnassar.github.io/SARI-Research-Lab/htb/htb.html"
-          ><img src="./assets/images/hack_the_box.png"
+          ><img class="fade-in" loading="lazy" src="./assets/images/hack_the_box.png"
         /></a>
         <a
           href="https://mnassar.github.io/SARI-Research-Lab/leetcode/leetcode.html"
-          ><img src="./assets/images/leetcode.png"
+          ><img class="fade-in" loading="lazy" src="./assets/images/leetcode.png"
         /></a>
         <a href="https://ctftime.org/team/177610/#.Ylca8Pbkvbs.link"
-          ><img src="./assets/images/ctf.png"
+          ><img class="fade-in" loading="lazy" src="./assets/images/ctf.png"
         /></a>
         <a href="https://tryhackme.com/p/mnassar"
-          ><img src="./assets/images/try_hack_me.png"
+          ><img class="fade-in" loading="lazy" src="./assets/images/try_hack_me.png"
         /></a>
       </div>
     </section>
@@ -201,6 +204,19 @@
         <li>
           <div class="item">
             <span>1</span>
+            <div class="content-container">
+              <p class="research-date">Apr 2022</p>
+              <p class="research-content">
+                Sayda Elmi, Kian-Lee Tan:
+Influence-Based Deep Network for Next POIs Prediction. ECIR (1) 2022: 170-183
+
+              </p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="item">
+            <span>2</span>
             <div class="content-container">
               <p class="research-date">Jan 2022</p>
               <p class="research-content">
@@ -228,7 +244,19 @@
         </li>
         <li>
           <div class="item">
-            <span>2</span>
+            <span>4</span>
+            <div class="content-container">
+              <p class="research-date">Nov 2021</p>
+              <p class="research-content">
+                Sayda Elmi, Karim Benouaret, Kian-Lee Tan:
+Social and Spatio-Temporal Learning for Contextualized Next Points-of-Interest Prediction. ICTAI 2021: 322-329
+              </p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="item">
+            <span>5</span>
             <div class="content-container">
               <p class="research-date">Oct 2021</p>
               <p class="research-content">
@@ -243,7 +271,19 @@
         </li>
         <li>
           <div class="item">
-            <span>4</span>
+            <span>6</span>
+            <div class="content-container">
+              <p class="research-date">Sep 2021</p>
+              <p class="research-content">
+                Karim Benouaret, Sayda Elmi, Kian-Lee Tan:
+Relaxing the Sky: Handling Hard User Constraints in Skyline Service Selection. SCC 2021: 62-70
+              </p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="item">
+            <span>7</span>
             <div class="content-container">
               <p class="research-date">Jul 2021</p>
               <p class="research-content">
@@ -261,109 +301,166 @@
       <div class="team-container">
         <div class="outer-box">
           <div class="upper-box"></div>
-          <div class="below-box"></div>
+          <div class="below-box">
+            <p class="research-tag">Research Interests: Cybersecurity & ML</p>
+          </div>
           <div>
             <span>Mohamed Nassar</span>
             <p>Assistant Professor</p>
             <div class="social-medias">
-              <a href="https://www.linkedin.com/in/nassar1/"><img src="./assets/images/linkedin.png" /></a>
-              <a href="https://github.com/mnassar"><img src="./assets/images/github-icon.png" /></a>
+              <a href="https://www.linkedin.com/in/nassar1/"><img loading="lazy" src="./assets/images/linkedin.png" /></a>
+              <a href="https://github.com/mnassar"><img loading="lazy" src="./assets/images/github-icon.png" /></a>
             </div>
           </div>
           <div class="img-box">
-            <img src="./assets/images/nassar.png" />
+            <img loading="lazy" class="profile-img" src="./assets/images/nassar.png" />
           </div>
         </div>
         <div class="outer-box">
           <div class="upper-box"></div>
-          <div class="below-box"></div>
+          <div class="below-box">
+            <p class="research-tag">Research Interests: IOT, Blockchain & AI</p>
+          </div>
           <div>
             <span>Shivanjali Khare</span>
             <p>Assistant Professor</p>
             <div class="social-medias">
               <a href="https://www.linkedin.com/in/shivanjalikhare/"
-                ><img src="./assets/images/linkedin.png"
+                ><img loading="lazy" src="./assets/images/linkedin.png"
               /></a>
-              <a href="#"><img src="./assets/images/github-icon.png" /></a>
+              <!-- <a href="#"><img loading="lazy" src="./assets/images/github-icon.png" /></a> -->
             </div>
           </div>
           <div class="img-box">
-            <img src="./assets/images/shivanjali.png" />
+            <img loading="lazy" class="profile-img" src="./assets/images/shivanjali.png" />
           </div>
         </div>
         <div class="outer-box">
           <div class="upper-box"></div>
-          <div class="below-box"></div>
+          <div class="below-box">
+            <p class="research-tag">Research Interests: Traffic Management, Action Recognition & Uncertain Data Analysis.</p>
+          </div>
           <div>
             <span>Saida Elmi</span>
             <p>Assistant Professor</p>
             <div class="social-medias">
               <a href="https://www.linkedin.com/in/saida-elmi-sayda-872a4761/"
-                ><img src="./assets/images/linkedin.png"
+                ><img loading="lazy" src="./assets/images/linkedin.png"
               /></a>
-              <a href="#"><img src="./assets/images/github-icon.png" /></a>
+              <!-- <a href="#"><img loading="lazy" src="./assets/images/github-icon.png" /></a> -->
             </div>
           </div>
           <div class="img-box">
-            <img src="./assets/images/saida.png" />
+            <img loading="lazy" class="profile-img" src="./assets/images/saida.png" />
           </div>
         </div>
         <div class="outer-box">
           <div class="upper-box"></div>
-          <div class="below-box"></div>
+          <div class="below-box">
+            <p class="research-tag">Research Interests: AI & Cybersecurity</p>
+          </div>
           <div>
             <span>Rajdeep Bhattacharya</span>
             <p>Graduate Student</p>
             <div class="social-medias">
               <a href="https://www.linkedin.com/in/rajdeepbhattacharyakolkata/"
-                ><img src="./assets/images/linkedin.png"
+                ><img loading="lazy" src="./assets/images/linkedin.png"
               /></a>
-              <a href="#"><img src="./assets/images/github-icon.png" /></a>
+              <!-- <a href="#"><img loading="lazy" src="./assets/images/github-icon.png" /></a> -->
             </div>
           </div>
           <div class="img-box">
-            <img src="./assets/images/raj.png" />
+            <img loading="lazy" class="profile-img" src="./assets/images/raj.png" />
           </div>
         </div>
         <div class="outer-box">
           <div class="upper-box"></div>
-          <div class="below-box"></div>
+          <div class="below-box">
+            <p class="research-tag">Research Interests: Software Dev & AI Chatbots</p>
+          </div>
 
           <div class="img-box">
-            <img src="./assets/images/dipesh.png" />
+            <img loading="lazy" class="profile-img" src="./assets/images/dipesh.png" />
           </div>
           <div>
             <span>Dipesh Shrestha</span>
             <p>Graduate Student</p>
             <div class="social-medias">
               <a href="https://www.linkedin.com/in/dipesh0314/"
-                ><img src="./assets/images/linkedin.png"
+                ><img loading="lazy" src="./assets/images/linkedin.png"
               /></a>
               <a href="https://github.com/theInnovativeProgrammer"
-                ><img src="./assets/images/github-icon.png"
+                ><img loading="lazy" src="./assets/images/github-icon.png"
               /></a>
             </div>
           </div>
         </div>
+        <div class="outer-box">
+          <div class="upper-box"></div>
+          <div class="below-box">
+            <p class="research-tag">Research Interests: Cybersecurity</p>
+          </div>
+
+          <div class="img-box">
+            <img loading="lazy" class="profile-img" src="./assets/images/karan.png" />
+          </div>
+          <div>
+            <span>Karan Darji</span>
+            <p>Graduate Student</p>
+            <div class="social-medias">
+              <a href="https://www.linkedin.com/in/karandarji18/"
+                ><img loading="lazy" src="./assets/images/linkedin.png"
+              /></a>
+              <a href="https://github.com/karandarjishack"
+                ><img loading="lazy" src="./assets/images/github-icon.png"
+              /></a>
+            </div>
+          </div>
+        </div>
+        <div class="outer-box">
+          <div class="upper-box"></div>
+          <div class="below-box">
+            <p class="research-tag">Research Interests: AI, Cyber security & Robotics</p>
+          </div>
+
+          <div class="img-box">
+            <img loading="lazy" class="profile-img" src="./assets/images/sayli.png" />
+          </div>
+          <div>
+            <span>Sayli Ambure</span>
+            <p>Graduate Student</p>
+            <div class="social-medias">
+              <a href="https://www.linkedin.com/in/sayli-ambure"
+                ><img loading="lazy" src="./assets/images/linkedin.png"
+              /></a>
+              <a href="https://github.com/the-girl-who-lived"
+                ><img loading="lazy" src="./assets/images/github-icon.png"
+              /></a>
+            </div>
+          </div>
+        </div>
+        
       </div>
       <div id="colab-sec">
         <h2 class="heading">Our Collaboration</h2>
         <div class="colab-container">
           <div class="outer-box">
             <div class="upper-box"></div>
-            <div class="below-box"></div>
+            <div class="below-box">
+              <p class="research-tag">Research Interests: Hardware Security & Embedded AI</p>
+            </div>
             <div>
               <span>Yehya NASSER</span>
               <p>Associate Professor</p>
               <div class="social-medias">
                 <a href="https://www.linkedin.com/in/yehya-nasser-phd/"
-                  ><img src="./assets/images/linkedin.png"
+                  ><img loading="lazy" src="./assets/images/linkedin.png"
                 /></a>
-                <a href="#"><img src="./assets/images/github-icon.png" /></a>
+                <a href="#"><img loading="lazy" src="./assets/images/github-icon.png" /></a>
               </div>
             </div>
             <div class="img-box">
-              <img src="./assets/images/nasser.png" />
+              <img loading="lazy" class="profile-img" src="./assets/images/nasser.png" />
             </div>
           </div>
         </div>
@@ -371,7 +468,7 @@
     </section>
     
     <!-- Contact Us Section -->
-    <img src="./assets/images/msg.png" id="contact-btn">
+    <img loading="lazy" src="./assets/images/msg.png" id="contact-btn">
     <div id="contact-sec">
       <div id="contact-outer"> 
         <div class="contact-header">
@@ -416,20 +513,110 @@
           }
         })
 
+        const menuRef = document.getElementById('menu');
+        const hamburgerRef = document.getElementById('toggle');
+        var flagForMenu = false;
         function closeMenu(){
-          document.getElementById('menu').style.display='none';
-          document.getElementById('toggle').checked = false;
-          // console.log(document.getElementById('toggle').checked);
+          menuRef.style.display='none';
+          // hamburgerRef.checked = false;
+          flagForMenu = false;
+          console.log(hamburgerRef.checked);
+
         }
 
         function openMenu(){
-          const menuRef = document.getElementById('menu');
           menuRef.style.display='block';
           menuRef.style.textAlign = 'center';
           menuRef.style.paddingTop = '20px';
-          document.getElementById('toggle').checked = true;
-          // console.log(document.getElementById('toggle').checked);
+          flagForMenu = true;
+          // hamburgerRef.checked = true;
+          console.log(hamburgerRef.checked);
         }
+
+// Animation script for Our Services Section.
+  const fadeUpAnimate = document.querySelectorAll(".bottom-animate");
+  // const fadeFromSideAnimate = document.querySelectorAll(".side-animate")
+  const siblingLabServiceRef = document.getElementById("sibling-lab-service");
+  const teachingServiceRef = document.getElementById("teaching-service");
+  window.addEventListener("scroll", serviceSecAnimation);
+
+  let serviceSec = document.querySelector("#service-sec");
+
+  function serviceSecAnimation() {
+    if (window.scrollY >= serviceSec.offsetTop - (window.innerHeight - 350)) {
+      fadeUpAnimate.forEach((anim) => {
+        anim.style.opacity = "1";
+        anim.style.transform = "translateY(0px)";
+        anim.style.transition = "1s ease";
+      });
+      
+      teachingServiceRef.style.opacity = "1";
+      teachingServiceRef.style.transform = "translateX(0px)";
+      teachingServiceRef.style.transition = "1s ease";
+
+      siblingLabServiceRef.style.opacity = "1";
+      siblingLabServiceRef.style.transform = "translateX(0px)";
+      siblingLabServiceRef.style.transition = "1s ease";
+    } else {
+      fadeUpAnimate.forEach((anim) => {
+        anim.style.opacity = "0.4";
+        anim.style.transform = "translateY(80px)";
+      });
+      // teachingServiceRef.style.opacity = "0.4";
+      // teachingServiceRef.transform = "translateY(80px)";
+      teachingServiceRef.style.opacity = "0.4";
+      teachingServiceRef.style.transform = "translateX(-80px)";
+
+      siblingLabServiceRef.style.opacity = "0.4";
+      siblingLabServiceRef.style.transform = "translateX(80px)";
+    }
+  }
+
+
+// Animation Script for Our Team and Our Collaboration Section.
+  const teamSecFadeUpAnimate = document.querySelectorAll(".outer-box");
+  window.addEventListener("scroll", teamSecAnimation);
+
+  let teamSec = document.querySelector("#team-sec");
+
+  function teamSecAnimation() {
+    if (window.scrollY >= teamSec.offsetTop - (window.innerHeight - 350)) {
+      teamSecFadeUpAnimate.forEach((anim) => {
+        anim.style.opacity = "1";
+        anim.style.transform = "translateY(0px)";
+        anim.style.transition = "1s ease";
+      });
+    } else {
+      teamSecFadeUpAnimate.forEach((anim) => {
+        anim.style.opacity = "0";
+        anim.style.transform = "translateY(80px)";
+      });
+    }
+  }
+
+
+  // Animation for Our Involvement Section.
+  const fadeInAnimate = document.querySelectorAll(".fade-in");
+  window.addEventListener("scroll", involvementSecAnimation);
+
+  let involvementSec = document.querySelector("#involvement-sec");
+
+  function involvementSecAnimation() {
+    if (window.scrollY >= involvementSec.offsetTop - (window.innerHeight - 350)) {
+      fadeInAnimate.forEach((anim) => {
+        anim.style.opacity = "1";
+        // anim.style.transform = "translateY(0px)";
+        anim.style.transition = "3s ease";
+      });
+    } else {
+      fadeInAnimate.forEach((anim) => {
+        anim.style.opacity = "0";
+        // anim.style.transform = "translateY(80px)";
+      });
+    }
+  }
+
+
     </script>
   </body>
 </html>
